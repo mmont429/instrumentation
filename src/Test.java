@@ -5,13 +5,13 @@ public class Test {
         ins.activate(true);
         ins.startTiming("main");
         ins.comment("Start the program");
-        int[] arr = populateArray(10000);
+        int[] arr = populateArray(1000);
         BubbleSort.bubbleSort(arr);
         ins.startTiming("QuickSort");
         QuickSort.sort(arr, 0, arr.length-1);
         ins.stopTiming("QuickSort");
         ins.stopTiming("main");
-        ins.dump("C:\\Users\\Michael\\Documents\\SOFT 437\\Assignment 3\\test.log");
+        ins.dump("C:\\Users\\Michael\\Documents\\SOFT 437\\instrumentation\\src\\test.log");
     }
 
     public static int[] populateArray(int size){

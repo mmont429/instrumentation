@@ -1,9 +1,9 @@
 STARTTIMING: main
 |  COMMENT: Start the program
 |  STARTTIMING: PopulatingArray
-|  STOPTIMING: PopulatingArray 2ms
+|  STOPTIMING: PopulatingArray 0ms
 |  STARTTIMING: BubbleSort
-|  STOPTIMING: BubbleSort 187ms
+|  STOPTIMING: BubbleSort 7ms
 |  STARTTIMING: QuickSort
-|  STOPTIMING: QuickSort 86ms
-STOPTIMING: main 278ms
+|  STOPTIMING: QuickSort 6ms
+STOPTIMING: main 16ms
